@@ -1,0 +1,41 @@
+{
+    "hero": {
+        "header": "Welcome, I'm",
+        "body": "Motivated, ambitious and exceptionally flexible. Searching for a job that will provide me with the opportunity to acquire more experience and fully pursue my passions.",
+        "button1": "Download CV",
+        "button2": "Hire me",
+        "animText": "IT engineer"
+    },
+    "aboutme": {
+        "header": "About me",
+        "body": "I'm an IT engineer with a passion for creating innovatvive and immersive applications. I have experience in creating projects with techonolgies like HTML, CSS, JavaScript, React, Android, Ionic, Java, C#, SQL, Spring, Unity or Git. \n I am a quick self learner and I am always looking how to expand my knowledge and skill sets. Im not afraid of new challenges. \n I've been already working with groups of people and im excited to work with others to create amazing apps.",
+        "skills": "Skills",
+        "education": "Education",
+        "certifications": "Certifications"
+    },
+    "achievements": {
+        "projects": "Projects",
+        "certifications": "Certifications",
+        "years": "Years"
+    },
+    "projects": {
+        "header": "My projects",
+        "buttonTag": "All",
+        "p1title": "Spring Boot Java App with MVC design pattern.",
+        "p1desc": "Recipe application created in MVC (Model-View-Controller) model using Spring Boot.",
+        "p2title": "React/Node/ExpressJS Based App with Firebase Integration.",
+        "p2desc": "This is an example of a React based web application written in NodeJS technology consisted with client and server.",
+        "p3title": "ProjectMVVM-WPF - Employees Management.",
+        "p3desc": "Simple application written in WPF technology in MVVM model using C# to manage a list of employees.",
+        "p4title": "React Based Ionic Game App with Firebase Integration.",
+        "p4desc": "This is an example of web/mobile game application, developed using Ionic and React technologies.",
+        "p5title": "Virtual Reality 3D application made in C# within the Unity environment.",
+        "p5desc": "This immersive therapy platform provides a virtual space where individuals can safely confront and overcome their social fears."
+    },
+    "contact": {
+        "header": "Let's work together.",
+        "body": "If you'd like to get in touch, I'm always here and eager to connect. Whether you have a question, a comment, or just want to say hello, please don't hasitate to leave me a message. I'll do my best to respond as fast as I can and look forward to hearing from you.",
+        "contactmsg": "Contact with me",
+        "emailmsg": ""
+    }
+}

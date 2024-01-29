@@ -6,7 +6,7 @@ import {Bars3Icon, XMarkIcon, XmarkIcon} from "@heroicons/react/24/solid";
 import MenuOverlay from './MenuOverlay';
 import Image from 'next/image';
 
-const navLinks = [
+let navLinks = [
     {
         title: "About",
         path: "#about",
@@ -20,8 +20,42 @@ const navLinks = [
         path: "#contact",
     }, 
 ]
-const Navbar = () => {
+
+
+const Navbar = (currentLang, setCurrentLang) => {
     const [navbarOpen, setNavbarOpen] = useState(false);
+
+    if(currentLang.currentLang == "EN"){
+        navLinks = [
+           {
+               title: "About",
+               path: "#about",
+           },
+           {
+               title: "Projects",
+               path: "#projects",
+           },
+           {
+               title: "Contact",
+               path: "#contact",
+           }, 
+       ]
+   }else{
+    navLinks = [
+        {
+            title: "O mnie",
+            path: "#about",
+        },
+        {
+            title: "Projekty",
+            path: "#projects",
+        },
+        {
+            title: "Kontakt",
+            path: "#contact",
+        }, 
+    ]
+   }
   return (
     <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100 py-2 shadow">
         <div className="flex flex-wrap items-center justify-between mx-auto px-6 ">
