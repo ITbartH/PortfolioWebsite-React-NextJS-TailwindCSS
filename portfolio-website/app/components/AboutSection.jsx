@@ -59,8 +59,10 @@ const TAB_DATA = [
                 </li>
                 <br></br>
                 <li>
-                    <span className="text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 via-yellow-500 to-yellow-300">Zaświadczenie o udziale w konferencji "Inkluzja bez barier" inaugurującej
-                        projekt grantowy </span><br></br>"Pilotażowe wdrożenie modelu Specjalistycznych
+                    <span className="text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 via-yellow-500 to-yellow-300">Zaświadczenie o udziale w konferencji Inkluzja bez barier inaugurującej
+                        projekt grantowy 
+                    </span>
+                    <br></br>Pilotażowe wdrożenie modelu Specjalistycznych
                     Centrów Wspierających Edukację Włączającą" (29.03.2022r.)
                 </li>
             </ul>
