@@ -110,7 +110,7 @@ const HeroSection = (currentLang, setCurrentLang) => {
 
                             </a>
                         </button>
-                       /* 
+                        {/* 
                         <button className="hover:animate-wiggle px-6 py-3 w-full mt-2 sm:w-fit rounded-xl bg-gradient-to-br from-primary-400 via-primary-500 to-secondary-500 hover:bg-slate-200 text-black font-bold">
                             {currentLang.currentLang == "EN" ?
                                 (
@@ -122,7 +122,7 @@ const HeroSection = (currentLang, setCurrentLang) => {
                                     </>
                                 )}
                         </button> 
-                        */
+                        */}
 
                     </div>
                 </div>
