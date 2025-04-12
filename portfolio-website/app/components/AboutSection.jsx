@@ -43,7 +43,7 @@ const TAB_DATA = [
                         Uniwersytet Przyrodniczo-Humanistyczny w Siedlcach, Instytut Informatyki (2019-2023)
                     </span>
                     <br></br>
-                    (Engineer IT)
+                    (Bachelor of Engineering IT)
                 </li>
             </ul>
         )
