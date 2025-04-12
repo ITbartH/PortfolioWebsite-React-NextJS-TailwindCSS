@@ -63,7 +63,7 @@ const TAB_DATA = [
                         projekt grantowy 
                     </span>
                     <br></br>Pilotażowe wdrożenie modelu Specjalistycznych
-                    Centrów Wspierających Edukację Włączającą" (29.03.2022r.)
+                    Centrów Wspierających Edukację Włączającą (29.03.2022r.)
                 </li>
             </ul>
         )
