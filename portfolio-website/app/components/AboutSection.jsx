@@ -54,8 +54,8 @@ const TAB_DATA = [
         content: (
             <ul>
                 <li>
-                    <span className="text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 via-yellow-500 to-yellow-300">Certyfikat poświadczający wygłoszenie referatu na Ogólnopolskiej Konferencji Interdyscyplinarnej </span> <br></br>"Współczesne
-                    zastosowania Informatyki 2022" (16.05.2022r.)
+                    <span className="text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 via-yellow-500 to-yellow-300">Certyfikat poświadczający wygłoszenie referatu na Ogólnopolskiej Konferencji Interdyscyplinarnej </span> <br></br>Współczesne
+                    zastosowania Informatyki 2022 (16.05.2022r.)
                 </li>
                 <br></br>
                 <li>
