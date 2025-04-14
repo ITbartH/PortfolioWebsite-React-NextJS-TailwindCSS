@@ -23,39 +23,41 @@ export default function Home(props) {
     if (newLang !== null) {
       setLang(newLang);
     }
-    
+
   };
 
   return (
     <main style={{ scrollBehavior: "smooth" }} className="flex min-h-screen flex-col bg-[#121212]">
 
       <Navbar currentLang={lang} setCurrentLang={setCurrentLang}></Navbar>
-      
+
       <div className="container mt-24 mx-auto px-14 py-6">
         <div className="fixed right-5 ">
-        <ToggleButtonGroup
-          color="warning"
-          value={lang}
-          exclusive
-          onChange={handleLang}
-        >
-          <ToggleButton value="EN" aria-label="English">
-            EN
-          </ToggleButton>
+          <ToggleButtonGroup
+            color="warning"
+            value={lang}
+            exclusive
+            onChange={handleLang}
+          >
+            <ToggleButton value="EN" aria-label="English">
+              EN
+            </ToggleButton>
 
-          <ToggleButton value="PL" aria-label="Polish">
-            PL
-          </ToggleButton>
+            <ToggleButton value="PL" aria-label="Polish">
+              PL
+            </ToggleButton>
 
-        </ToggleButtonGroup>
+          </ToggleButtonGroup>
         </div>
-        <HeroSection currentLang={lang} setCurrentLang={setCurrentLang}></HeroSection>
+        <HeroSection currentLang={lang} setCurrentLang={setCurrentLang} />
 
-        <AboutSection currentLang={lang} setCurrentLang={setCurrentLang}/>
-        <AchievementsSection currentLang={lang} setCurrentLang={setCurrentLang}/>
-        <ProjectSection currentLang={lang} setCurrentLang={setCurrentLang}/>
+        <AboutSection currentLang={lang} setCurrentLang={setCurrentLang} />
 
-        <EmailSection currentLang={lang} setCurrentLang={setCurrentLang}/>
+        <AchievementsSection currentLang={lang} setCurrentLang={setCurrentLang} />
+
+        <ProjectSection currentLang={lang} setCurrentLang={setCurrentLang} />
+
+        <EmailSection currentLang={lang} setCurrentLang={setCurrentLang} />
       </div>
       <Footer />
     </main>
