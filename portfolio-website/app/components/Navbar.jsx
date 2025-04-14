@@ -86,7 +86,7 @@ const Navbar = (currentLang, setCurrentLang) => {
                     {
                         navLinks.map((link, index) => (
                             <li key={index}>
-                                <a href={link.path} title={link.title} scroll={false}/>
+                                <NavLink href={link.path} title={link.title} scroll={false}/>
                             </li>
                         ))
                     }   
