@@ -21,42 +21,54 @@ export default function Home(props) {
 
   const handleLang = (event, newLang) => {
     if (newLang !== null) {
-      setLang(newLang);
+      const content = document.getElementById('content');
+  
+   
+      content.classList.add('opacity-0');
+  
+      setTimeout(() => {
+        setLang(newLang); 
+  
+      
+        setTimeout(() => {
+          content.classList.remove('opacity-0');
+        }, 100);
+      }, 300);
     }
-
   };
 
   return (
-    <main style={{ scrollBehavior: "smooth" }} className="flex min-h-screen flex-col bg-[#121212]">
+    <main style={{ scrollBehavior: "smooth" }} className="flex min-h-screen flex-col">
 
       <Navbar currentLang={lang} setCurrentLang={setCurrentLang}></Navbar>
 
-      <div className="container mt-24 mx-auto px-14 py-6">
+      <div id ="content" className="container mt-24 mx-auto px-14 py-6 transition-opacity duration-300">
         <div className="fixed right-5 ">
-          <ToggleButtonGroup
+          <ToggleButtonGroup className="bg-yellow-500"
             color="warning"
             value={lang}
             exclusive
             onChange={handleLang}
           >
-            <ToggleButton value="EN" aria-label="English">
+            <ToggleButton value="EN" aria-label="English" className="text-gray-900 text-lg">
               EN
             </ToggleButton>
 
-            <ToggleButton value="PL" aria-label="Polish">
+            <ToggleButton value="PL" aria-label="Polish" className="text-gray-900 text-lg">
               PL
             </ToggleButton>
 
           </ToggleButtonGroup>
         </div>
         <HeroSection currentLang={lang} setCurrentLang={setCurrentLang} />
-
+        <section id="about"/>
         <AboutSection currentLang={lang} setCurrentLang={setCurrentLang} />
 
         <AchievementsSection currentLang={lang} setCurrentLang={setCurrentLang} />
-
+        <section id="projects"/>
         <ProjectSection currentLang={lang} setCurrentLang={setCurrentLang} />
 
+        <section id="contact"/>
         <EmailSection currentLang={lang} setCurrentLang={setCurrentLang} />
       </div>
       <Footer />

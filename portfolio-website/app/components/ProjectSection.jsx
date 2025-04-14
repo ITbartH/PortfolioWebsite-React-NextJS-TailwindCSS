@@ -25,7 +25,7 @@ let projectsData = [
         description: ENtranslation.projects.p2desc,
         image: "/images/projects/no-image.jpg",
         tag: ["All", "Web"],
-        gitUrl: "https://github.com/hrycek/ProjectNodeJS-ExpressJS-React nb",
+        gitUrl: "https://github.com/hrycek/ProjectNodeJS-ExpressJS-React",
         previewUrl: ""
     },
     {
@@ -180,7 +180,7 @@ const ProjectSection = (currentLang, setCurrentLang) => {
 
     return (
         <>
-            <section id="projects" className="mt-20">
+            <section className="mt-20">
                 <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
                     {
                         currentLang.currentLang == "EN" ?

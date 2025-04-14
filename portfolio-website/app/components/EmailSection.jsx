@@ -52,7 +52,7 @@ const EmailSection = (currentLang, setCurrentLang) => {
         }
     }
     return (
-        <section id="contact" className="grid md:grid-cols-2 my-20 md:my-32 py-14 gap-4 relative">
+        <section className="grid md:grid-cols-2 my-20 md:my-32 py-14 gap-4 relative">
 
             <div className="">
                 <h5 className="text-xl font-bold text-white my-2">

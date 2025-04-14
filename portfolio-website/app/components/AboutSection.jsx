@@ -81,7 +81,7 @@ const AboutSection = (currentLang, setCurrentLang) => {
     }
 
 
-    return <section id="about" className="text-white mt-32">
+    return <section className="text-white mt-32">
         <div className="md:grid md:grid-cols-2 gap-8  py-8 px-4 xl:gap-16 sm:py-16 xl:py-16">
             <Image priority src="/images/about-image.jpg" width={600} height={500} alt="Working Station" className="place-self-center rounded-xl" />
             <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
