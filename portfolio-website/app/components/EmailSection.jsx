@@ -93,7 +93,7 @@ const EmailSection = (currentLang, setCurrentLang) => {
                     <Link href="http://github.com/hrycek" target="_blank">
                         <Image src={GitHubIcon} alt="Github Icon" />
                     </Link>
-                    <Link href="https://www.linkedin.com/in/bartosz-hrycaj/" target="_blank">
+                    <Link href="https://www.linkedin.com/in/bartosz-hrycaj" target="_blank">
                         <Image src={LinkedinIcon} alt="Linkedin Icon" />
                     </Link>
                 </div>
