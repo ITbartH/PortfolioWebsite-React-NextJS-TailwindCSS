@@ -60,7 +60,7 @@ const TAB_DATA = [
                 <br></br>
                 <li>
                     <span className="text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 via-yellow-500 to-yellow-300">Zaświadczenie o udziale w konferencji Inkluzja bez barier inaugurującej
-                        projekt grantowy 
+                        projekt grantowy
                     </span>
                     <br></br>Pilotażowe wdrożenie modelu Specjalistycznych
                     Centrów Wspierających Edukację Włączającą (29.03.2022r.)
@@ -145,17 +145,17 @@ const AboutSection = (currentLang, setCurrentLang) => {
                     <TabButton
                         selectTab={() => handleTabChange("certifications")}
                         active={tab === "certifications"}>
-                         {
-                        currentLang.currentLang == "EN" ?
-                            (
-                                <>{ENtranslation.aboutme.certifications}
-                                </>
-                            ) :
-                            (
-                                <>{PLtranslation.aboutme.certifications}
-                                </>
-                            )
-                    }
+                        {
+                            currentLang.currentLang == "EN" ?
+                                (
+                                    <>{ENtranslation.aboutme.certifications}
+                                    </>
+                                ) :
+                                (
+                                    <>{PLtranslation.aboutme.certifications}
+                                    </>
+                                )
+                        }
                     </TabButton>
                 </div>
                 <div className="mt-8">{TAB_DATA.find((t) => t.id === tab).content}</div>

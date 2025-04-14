@@ -18,9 +18,9 @@ const HeroSection = (currentLang, setCurrentLang) => {
 
     const ENtranslation = global_en;
     const PLtranslation = global_pl;
-    
-    
-    
+
+
+
 
     return (
         <section className="mt-20">
@@ -66,9 +66,9 @@ const HeroSection = (currentLang, setCurrentLang) => {
                     animate={isInView ? "animate" : "initial"}
                     transition={{ duration: 1, delay: 0 }}
                     className="col-span-4 place-self-center mt-4 lg:mt-0">
-                        <div className="shadow rounded-full bg-yellow-500 blur-2xl w-[450px] h-[450px] lg:w-[350px] lg:h-[350px] md:w-[250px] md:h-[250px] absolute opacity-25 ml-25"/>
+                    <div className="shadow rounded-full bg-yellow-500 blur-2xl w-[450px] h-[450px] lg:w-[350px] lg:h-[350px] md:w-[250px] md:h-[250px] absolute opacity-25 ml-25" />
                     <div className="shadow rounded-full bg-[#181818]  w-[450px] h-[450px] lg:w-[350px] lg:h-[350px] md:w-[250px] md:h-[250px] relative">
-                        <Image 
+                        <Image
                             src="/images/my-photo-full.jpg"
                             alt="hero image"
                             className="blur-none absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full border-4 border-primary-500 opacity-95"

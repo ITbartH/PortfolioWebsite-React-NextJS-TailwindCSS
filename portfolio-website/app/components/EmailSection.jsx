@@ -17,11 +17,11 @@ const EmailSection = (currentLang, setCurrentLang) => {
 
     const showInfo = () => {
         navigator.clipboard.writeText("hrycaj.bartosz@gmail.com");
-        
+
         setIsAlertVisible(true);
     }
 
-    
+
 
     function timeout(delay) {
         return new Promise(res => setTimeout(res, delay));
@@ -29,24 +29,24 @@ const EmailSection = (currentLang, setCurrentLang) => {
 
     const [buttonText, setButtonText] = useState('Copy');
 
-    if (isAlertVisible){
-        if(currentLang.currentLang == "EN"){
-            if(buttonText !== "Copied!"){
+    if (isAlertVisible) {
+        if (currentLang.currentLang == "EN") {
+            if (buttonText !== "Copied!") {
                 setButtonText("Copied!")
             }
-        }else if(currentLang.currentLang == "PL"){
-            if(buttonText !== "Skopiowano!"){
+        } else if (currentLang.currentLang == "PL") {
+            if (buttonText !== "Skopiowano!") {
                 setButtonText("Skopiowano!")
             }
         }
-        
-    }else{
-        if(currentLang.currentLang == "EN"){
-            if(buttonText !== "Copy"){
+
+    } else {
+        if (currentLang.currentLang == "EN") {
+            if (buttonText !== "Copy") {
                 setButtonText("Copy")
             }
-        }else if(currentLang.currentLang == "PL"){
-            if(buttonText !== "Kopiuj"){
+        } else if (currentLang.currentLang == "PL") {
+            if (buttonText !== "Kopiuj") {
                 setButtonText("Kopiuj")
             }
         }

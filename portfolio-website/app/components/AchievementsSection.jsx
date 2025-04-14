@@ -24,7 +24,7 @@ let achievementsList = [
 
 const AchievementsSection = (currentLang, setCurrentLang) => {
   if (currentLang.currentLang == "EN") {
-    
+
     achievementsList = [
       {
         metric: ENtranslation.achievements.projects.toString(),

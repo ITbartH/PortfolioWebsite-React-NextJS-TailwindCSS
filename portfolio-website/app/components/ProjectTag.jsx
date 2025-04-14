@@ -1,7 +1,7 @@
 import React from 'react'
 
-const ProjectTag = ({name, onClick, isSelected}) => {
-    const buttonStyles = isSelected
+const ProjectTag = ({ name, onClick, isSelected }) => {
+  const buttonStyles = isSelected
     ? "text-white border-primary-500"
     : "text-[#adb7be] border-slate-600 hover:border-white"
   return (
