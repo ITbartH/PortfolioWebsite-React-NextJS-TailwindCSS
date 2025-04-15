@@ -94,7 +94,7 @@ const ProjectSection = (currentLang, setCurrentLang) => {
                 description: ENtranslation.projects.p2desc,
                 image: "/images/projects/no-image.jpg",
                 tag: ["All", "Web"],
-                gitUrl: "https://github.com/hrycek/ProjectNodeJS-ExpressJS-React nb",
+                gitUrl: "https://github.com/hrycek/ProjectNodeJS-ExpressJS-React",
                 previewUrl: ""
             },
             {
@@ -144,7 +144,7 @@ const ProjectSection = (currentLang, setCurrentLang) => {
                 description: PLtranslation.projects.p2desc,
                 image: "/images/projects/no-image.jpg",
                 tag: ["All", "Web"],
-                gitUrl: "https://github.com/hrycek/ProjectNodeJS-ExpressJS-React nb",
+                gitUrl: "https://github.com/hrycek/ProjectNodeJS-ExpressJS-React",
                 previewUrl: ""
             },
             {

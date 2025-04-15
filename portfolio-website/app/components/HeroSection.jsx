@@ -23,7 +23,7 @@ const HeroSection = (currentLang, setCurrentLang) => {
 
 
     return (
-        <section className="mt-20">
+        <section className="mt-6 md:mt-20">
             <div ref={ref} className="grid grid-cols-1 md:grid-cols-12">
                 <div className="hidden xl:block"></div>
                 <div className="col-span-3 place-self-center text-center sm:text-left">
@@ -65,9 +65,9 @@ const HeroSection = (currentLang, setCurrentLang) => {
                     initial="initial"
                     animate={isInView ? "animate" : "initial"}
                     transition={{ duration: 1, delay: 0 }}
-                    className="col-span-4 place-self-center mt-4 lg:mt-0">
-                    <div className="shadow rounded-full bg-yellow-500 blur-2xl w-[450px] h-[450px] lg:w-[350px] lg:h-[350px] md:w-[250px] md:h-[250px] absolute opacity-25 ml-25" />
-                    <div className="shadow rounded-full bg-[#181818]  w-[450px] h-[450px] lg:w-[350px] lg:h-[350px] md:w-[250px] md:h-[250px] relative">
+                    className="col-span-4 place-self-center mt-12 lg:mt-0">
+                    <div className="shadow rounded-full bg-yellow-500 blur-2xl w-[300px] h-[300px] lg:w-[350px] lg:h-[350px] md:w-[250px] md:h-[250px] absolute opacity-25 ml-25" />
+                    <div className="shadow rounded-full bg-[#181810]           w-[300px] h-[300px] lg:w-[350px] lg:h-[350px] md:w-[250px] md:h-[250px] relative mb-10">
                         <Image
                             src="/images/my-photo-full.jpg"
                             alt="hero image"
@@ -79,7 +79,7 @@ const HeroSection = (currentLang, setCurrentLang) => {
                     </div>
                 </motion.div>
                 <div className="xl:hidden"></div>
-                <div className="col-span-3 place-self-center">
+                <div className="col-span-3 place-self-center mt-8">
 
                     <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl text-center">
                         {currentLang.currentLang == "EN" ?

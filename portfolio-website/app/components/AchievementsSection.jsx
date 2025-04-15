@@ -57,12 +57,12 @@ const AchievementsSection = (currentLang, setCurrentLang) => {
   }
   return (
     <section id="about" className="py-8 sm:py-16 sm:px-10" >
-      <div className="shadow-xl border-[#33353f] border rounded-md py-8 flex flex-row content-center justify-between px-14">
+      <div className="shadow-xl border-[#33353f] border rounded-md py-4 md:py-8 flex flex-row content-center justify-between px-18">
         {achievementsList.map((achievement, index) => {
           return (
-            <div key={index} className="flex flex-col items-center justify-center">
-              <h2 className="text-white text-4xl font-bold">{achievement.value}</h2>
-              <p className="text-[#adb7be] text-base font-bold">{achievement.metric}</p>
+            <div key={index} className="flex flex-col items-center justify-center pl-2 pr-2 md:pl-16 md:pr-16">
+              <h2 className="text-white text-lg md:text-4xl font-bold">{achievement.value}</h2>
+              <p className="text-[#adb7be] text-xs md:text-xl text-base font-bold">{achievement.metric}</p>
             </div>
           );
         })

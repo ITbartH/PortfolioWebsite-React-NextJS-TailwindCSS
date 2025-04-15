@@ -16,7 +16,97 @@
   }
 }
 
+@media (max-width: 768px) {
+  body::before,
+  body::after,
+  html::before,
+  html::after {
+    display: none !important;
+    content: none !important;
+    width: 0 !important;
+    height: 0 !important;
+  }
+}
+
+@keyframes floatRotate {
+  0% {
+    transform: translateY(0) rotate(45deg);
+  }
+  50% {
+    transform: translateY(0) rotate(55deg);
+  }
+  100% {
+    transform: translateY(0) rotate(45deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  
+  100% {
+    transform: translateY(0) rotate(360deg);
+  }
+}
+html{
+  overflow-x: hidden;
+  touch-action: manipulation;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+
+  width: 100%;
+  max-width: 100%;
+}
+
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(rgb(var(--background-end-rgb)), rgb(var(--background-start-rgb)))
+  background: linear-gradient(
+    to bottom,
+    rgb(var(--background-end-rgb)),
+    rgb(var(--background-start-rgb))
+  );
+  overflow-clip-margin: content-box;
+  overflow-x: clip;
 }
+
+/* Kwadrat */
+body::before {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  right: 90%;
+  background-color: rgba(173, 173, 173, 0.082);
+  animation: floatRotate 15s ease-in-out infinite;
+  z-index: 0;
+  pointer-events: none;
+  overflow-x: hidden;
+}
+
+
+
+/* Dolny kwadrat */
+html::after {
+  content: "";
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  top: 200%;
+  left: 90%;
+  background-color: rgba(173, 173, 173, 0.082);
+  animation: floatRotate 25s ease-in-out infinite;
+  z-index: 0;
+  pointer-events: none;
+  overflow-x: hidden;
+}
+
+
+
