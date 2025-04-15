@@ -43,23 +43,7 @@ export default function Home(props) {
       <Navbar currentLang={lang} setCurrentLang={setCurrentLang}></Navbar>
 
       <div id ="content" className="container mt-24 mx-auto px-14 py-6 transition-opacity duration-300">
-        <div className="fixed right-5 ">
-          <ToggleButtonGroup className="bg-yellow-500"
-            color="warning"
-            value={lang}
-            exclusive
-            onChange={handleLang}
-          >
-            <ToggleButton value="EN" aria-label="English" className="text-gray-900 text-lg">
-              EN
-            </ToggleButton>
-
-            <ToggleButton value="PL" aria-label="Polish" className="text-gray-900 text-lg">
-              PL
-            </ToggleButton>
-
-          </ToggleButtonGroup>
-        </div>
+        
         <HeroSection currentLang={lang} setCurrentLang={setCurrentLang} />
         <section id="about"/>
         <AboutSection currentLang={lang} setCurrentLang={setCurrentLang} />
