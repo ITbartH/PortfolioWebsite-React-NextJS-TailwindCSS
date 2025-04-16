@@ -90,7 +90,7 @@ const EmailSection = (currentLang, setCurrentLang) => {
 
                 </p>
                 <div className="socials flex flex-row gap-2">
-                    <Link href="http://github.com/hrycek" target="_blank">
+                    <Link href="https://github.com/ITbartH" target="_blank">
                         <Image src={GitHubIcon} alt="Github Icon" />
                     </Link>
                     <Link href="https://www.linkedin.com/in/bartosz-hrycaj" target="_blank">
