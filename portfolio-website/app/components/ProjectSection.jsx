@@ -15,24 +15,24 @@ let projectsData = [
         title: ENtranslation.projects.p1title,
         description: ENtranslation.projects.p1desc,
         image: "/images/projects/1.png",
-        tag: ["All", "Java"],
-        gitUrl: "https://github.com/hrycek/ProjectMVCSpringboot-Recipes-App",
+        tag: ["All", "C#"],
+        gitUrl: "https://apd.uph.edu.pl/diplomas/28984/",
         previewUrl: ""
     },
     {
         id: 2,
         title: ENtranslation.projects.p2title,
         description: ENtranslation.projects.p2desc,
-        image: "/images/projects/no-image.jpg",
-        tag: ["All", "Web"],
-        gitUrl: "https://github.com/hrycek/ProjectNodeJS-ExpressJS-React",
+        image: "/images/projects/2.png",
+        tag: ["All", "Java"],
+        gitUrl: "https://github.com/hrycek/ProjectMVCSpringboot-Recipes-App",
         previewUrl: ""
     },
     {
         id: 3,
         title: ENtranslation.projects.p3title,
         description: ENtranslation.projects.p3desc,
-        image: "/images/projects/4.png",
+        image: "/images/projects/3.png",
         tag: ["All", "C#"],
         gitUrl: "https://github.com/hrycek/ProjectMVVM-WPF-.NET",
         previewUrl: ""
@@ -41,7 +41,7 @@ let projectsData = [
         id: 4,
         title: ENtranslation.projects.p4title,
         description: ENtranslation.projects.p4desc,
-        image: "/images/projects/3.png",
+        image: "/images/projects/4.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/hrycek/ProjectIonicReact-CodeClickerApp",
         previewUrl: "https://codeclicker-ee42d.web.app"
@@ -50,11 +50,12 @@ let projectsData = [
         id: 5,
         title: ENtranslation.projects.p5title,
         description: ENtranslation.projects.p5desc,
-        image: "/images/projects/5.png",
-        tag: ["All", "C#"],
-        gitUrl: "https://apd.uph.edu.pl/diplomas/28984/",
+        image: "/images/projects/no-image.jpg",
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/hrycek/ProjectNodeJS-ExpressJS-React",
         previewUrl: ""
     },
+    
 ]
 
 const ProjectSection = (currentLang, setCurrentLang) => {
