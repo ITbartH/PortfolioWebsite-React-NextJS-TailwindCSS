@@ -1,3 +1,4 @@
+'use client';
 import { useState, useEffect } from 'react';
 import '../globals.css';
 
@@ -14,18 +15,23 @@ const ImageSlider = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 9900); // Zmiana co 10 sekund
+    }, 15000); // Zmiana co 10 sekund
 
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className="w-full max-w-xl mx-auto aspect-[4/3] overflow-hidden rounded-xl shadow-lg mb-6">
-      <img
-        src={images[currentImageIndex]}
-        alt={`Slide ${currentImageIndex}`}
-        className="w-full h-full object-cover transition-opacity duration-1000 slider-image"
-      />
+    <div className="relative w-full max-w-xl mx-auto aspect-[4/3] overflow-hidden rounded-xl shadow-xl shadow-black/40 mb-6">
+      {images.map((src, index) => (
+        <img
+          key={index}
+          src={src}
+          alt={`Slide ${index}`}
+          className={`absolute  top-0 left-0 w-full h-full object-cover transition-opacity duration-1000 ${
+            index === currentImageIndex ? 'opacity-100 z-1' : 'opacity-0 z-0'
+          }`}
+        />
+      ))}
     </div>
   );
 };

@@ -86,9 +86,8 @@ const AboutSection = ({ currentLang }) => { // Dodajemy destrukturyzację propsa
     <section className="text-white mt-16 md:mt-32">
         
       <div className="md:grid md:grid-cols-2 gap-8 py-8 px-4 xl:gap-16 sm:py-16 xl:py-16">
-         <ImageSlider></ImageSlider>{/* Twój komponent ImageSlider */}
-         {/*<Image priority src="/images/about-image.jpg" width={600} height={500} alt="Working Station" className="place-self-center rounded-xl" /> */}
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+         <ImageSlider></ImageSlider>
+        <div className="mt-16 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4 ">
             {currentLang === "EN" ? ENtranslation.aboutme.header : PLtranslation.aboutme.header}
           </h2>

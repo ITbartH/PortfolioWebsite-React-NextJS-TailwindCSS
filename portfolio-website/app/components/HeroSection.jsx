@@ -71,7 +71,7 @@ const HeroSection = (currentLang, setCurrentLang) => {
                         <Image
                             src="/images/my-photo-full.jpg"
                             alt="hero image"
-                            className="myface blur-none absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full border-4 border-primary-500 opacity-95"
+                            className="myface blur-none absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full border-4 border-primary-500 opacity-100"
                             width={250}
                             height={250}
                             priority
