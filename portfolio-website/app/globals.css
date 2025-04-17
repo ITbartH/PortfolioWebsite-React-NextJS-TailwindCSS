@@ -83,7 +83,7 @@ body::before {
   position: absolute;
   width: 500px;
   height: 500px;
-  right: 90%;
+  left: -16rem;
   background-color: rgba(173, 173, 173, 0.082);
   animation: floatRotate 15s ease-in-out infinite;
   z-index: 0;
@@ -99,8 +99,8 @@ html::after {
   position: absolute;
   width: 1000px;
   height: 1000px;
-  top: 200%;
-  left: 90%;
+  top: 140rem;
+  right: -46rem;
   background-color: rgba(173, 173, 173, 0.082);
   animation: floatRotate 25s ease-in-out infinite;
   z-index: 0;
