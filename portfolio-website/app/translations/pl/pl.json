@@ -31,7 +31,7 @@
         "p4desc": "Jest to przykład aplikacji webowej/mobilnej stworzonej przy użyciu technologii Ionic i React.",
         "p5title": "Aplikacja oparta na React/Node/ExpressJS z integracją Firebase.",
         "p5desc": "Jest to przykład aplikacji internetowej opartej na React, napisanej w technologii NodeJS, składającej się z klienta i serwera.",
-        "p6title": "Aplikacja portfolio na React i Next.js z użyciem TailwindCSS.",
+        "p6title": "Aplikacja portfolio oparta na React i Next.js z użyciem TailwindCSS.",
         "p6desc": "To dynamiczna i responsywna aplikacja strony portfolio stworzona w technologiach React i Next.js oraz ostylowana za pomocą TailwindCSS."
     },
     "contact": {
