@@ -60,7 +60,7 @@ const AchievementsSection = (currentLang, setCurrentLang) => {
       <div className="shadow-xl border-[#33353f] border rounded-md py-4 md:py-8 flex flex-row content-center justify-between px-18">
         {achievementsList.map((achievement, index) => {
           return (
-            <div key={index} className="flex flex-col items-center justify-center pl-2 pr-2 md:pl-16 md:pr-16">
+            <div key={index} className="flex flex-col items-center justify-center pl-2 pr-2 md:pl-4 md:pr-4 lg:pl-16 lg:pr-16">
               <h2 className="text-white text-lg md:text-4xl font-bold">{achievement.value}</h2>
               <p className="text-[#adb7be] text-xs md:text-xl text-base font-bold">{achievement.metric}</p>
             </div>
