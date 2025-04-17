@@ -5,7 +5,6 @@
         "button1": "Pobierz CV",
         "button2": "Zatrudnij mnie",
         "animText": "Inżynierem IT"
-        
     },
     "aboutme": {
         "header": "O mnie",
@@ -22,16 +21,16 @@
     "projects": {
         "header": "Moje projekty",
         "buttonTag": "Wszystkie",
-        "p1title": "Aplikacja Java Spring Boot w modelu MVC",
-        "p1desc": "Aplikacja Java z przepisami kulinarnymi stworzona w modelu MVC (Model-View-Controller) przy użyciu Spring Boot.",
-        "p2title": "Aplikacja oparta na React/Node/ExpressJS z integracją Firebase.",
-        "p2desc": "Jest to przykład aplikacji internetowej opartej na React, napisanej w technologii NodeJS, składającej się z klienta i serwera.",
+        "p1title": "Aplikacja 3D wirtualnej rzeczywistości wykonana w języku C# w środowisku Unity.",
+        "p1desc": "Ta wciągająca platforma terapeutyczna zapewnia wirtualną przestrzeń, w której osoby mogą bezpiecznie stawić czoła i przezwyciężyć swoje lęki społeczne.",
+        "p2title": "Aplikacja Java Spring Boot w modelu MVC",
+        "p2desc": "Aplikacja Java z przepisami kulinarnymi stworzona w modelu MVC (Model-View-Controller) przy użyciu Spring Boot.",
         "p3title": "ProjektMVVM-WPF - Zarządzenie pracownikami",
         "p3desc": "Prosta aplikacja napisana w technologii WPF w modelu MVVM z wykorzystaniem języka C# do zarządzania listą pracowników.",
         "p4title": "Aplikacja oparta na React oraz Ionic z integracją Firebase.",
         "p4desc": "Jest to przykład aplikacji webowej/mobilnej stworzonej przy użyciu technologii Ionic i React.",
-        "p5title": "Aplikacja 3D wirtualnej rzeczywistości wykonana w języku C# w środowisku Unity.",
-        "p5desc": "Ta wciągająca platforma terapeutyczna zapewnia wirtualną przestrzeń, w której osoby mogą bezpiecznie stawić czoła i przezwyciężyć swoje lęki społeczne."
+        "p5title": "Aplikacja oparta na React/Node/ExpressJS z integracją Firebase.",
+        "p5desc": "Jest to przykład aplikacji internetowej opartej na React, napisanej w technologii NodeJS, składającej się z klienta i serwera."
     },
     "contact": {
         "header": "Zacznijmy współpracę.",
@@ -40,7 +39,3 @@
         "emailmsg": ""
     }
 }
-
-
-
-
