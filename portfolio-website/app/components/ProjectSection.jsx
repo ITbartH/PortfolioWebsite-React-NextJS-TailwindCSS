@@ -17,7 +17,7 @@ let projectsData = [
         image: "/images/projects/1.png",
         tag: ["All", "C#"],
         gitUrl: "https://apd.uph.edu.pl/diplomas/28984/",
-        previewUrl: ""
+        previewUrl: "https://youtu.be/RbA79jdt6dY?si=pPzEhiSVxR-ZSrro"
     },
     {
         id: 2,
@@ -55,6 +55,15 @@ let projectsData = [
         gitUrl: "https://github.com/hrycek/ProjectNodeJS-ExpressJS-React",
         previewUrl: ""
     },
+    {
+        id: 6,
+        title: ENtranslation.projects.p6title,
+        description: ENtranslation.projects.p6desc,
+        image: "/images/projects/6.png",
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/ITbartH/PortfolioWebsite-React-NextJS-TailwindCSS",
+        previewUrl: "https://bartoszhrycaj-portfolio.vercel.app/"
+    }
     
 ]
 
@@ -87,7 +96,7 @@ const ProjectSection = (currentLang, setCurrentLang) => {
                 image: "/images/projects/1.png",
                 tag: ["All", "C#"],
                 gitUrl: "https://apd.uph.edu.pl/diplomas/28984/",
-                previewUrl: ""
+                previewUrl: "https://youtu.be/RbA79jdt6dY?si=pPzEhiSVxR-ZSrro"
             },
             {
                 id: 2,
@@ -125,6 +134,15 @@ const ProjectSection = (currentLang, setCurrentLang) => {
                 gitUrl: "https://github.com/hrycek/ProjectNodeJS-ExpressJS-React",
                 previewUrl: ""
             },
+            {
+                id: 6,
+                title: ENtranslation.projects.p6title,
+                description: ENtranslation.projects.p6desc,
+                image: "/images/projects/6.png",
+                tag: ["All", "Web"],
+                gitUrl: "https://github.com/ITbartH/PortfolioWebsite-React-NextJS-TailwindCSS",
+                previewUrl: "https://bartoszhrycaj-portfolio.vercel.app/"
+            }
             
             
         ]
@@ -139,7 +157,7 @@ const ProjectSection = (currentLang, setCurrentLang) => {
                 image: "/images/projects/1.png",
                 tag: ["All", "C#"],
                 gitUrl: "https://apd.uph.edu.pl/diplomas/28984/",
-                previewUrl: ""
+                previewUrl: "https://youtu.be/RbA79jdt6dY?si=pPzEhiSVxR-ZSrro"
             },
             {
                 id: 2,
@@ -176,7 +194,16 @@ const ProjectSection = (currentLang, setCurrentLang) => {
                 tag: ["All", "Web"],
                 gitUrl: "https://github.com/hrycek/ProjectNodeJS-ExpressJS-React",
                 previewUrl: ""
-            }, 
+            },
+            {
+                id: 6,
+                title: PLtranslation.projects.p6title,
+                description: PLtranslation.projects.p6desc,
+                image: "/images/projects/6.png",
+                tag: ["All", "Web"],
+                gitUrl: "https://github.com/ITbartH/PortfolioWebsite-React-NextJS-TailwindCSS",
+                previewUrl: "https://bartoszhrycaj-portfolio.vercel.app/"
+            }
         ]
 
     }

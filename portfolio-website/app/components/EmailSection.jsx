@@ -55,7 +55,7 @@ const EmailSection = (currentLang, setCurrentLang) => {
         <section className="grid md:grid-cols-2 my-20 md:my-32 py-14 gap-4 relative">
 
             <div className="">
-                <h5 className="text-xl font-bold text-white my-2">
+                <h5 className="text-xl font-bold text-yellow-500 my-2">
                     {
                         currentLang.currentLang == "EN" ?
                             (
@@ -89,7 +89,7 @@ const EmailSection = (currentLang, setCurrentLang) => {
                     }
 
                 </p>
-                <div className="socials flex flex-row gap-2">
+                <div className="socials flex flex-row gap-2 ">
                     <Link href="https://github.com/ITbartH" target="_blank">
                         <Image src={GitHubIcon} alt="Github Icon" />
                     </Link>
@@ -100,7 +100,7 @@ const EmailSection = (currentLang, setCurrentLang) => {
             </div>
 
             <div>
-                <div className="mb-6 flex flex-col justify-center items-center transform border xl:mx-32 py-4 rounded-2xl mt-10 ">
+                <div className="mb-6 flex flex-col justify-center items-center transform border-solid border-2 border-yellow-500 xl:mx-32 py-4 rounded-2xl mt-10 )">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                     </svg>

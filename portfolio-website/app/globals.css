@@ -99,7 +99,7 @@ html::after {
   position: absolute;
   width: 1000px;
   height: 1000px;
-  top: 140rem;
+  bottom: -120rem;
   right: -46rem;
   background-color: rgba(173, 173, 173, 0.082);
   animation: floatRotate 25s ease-in-out infinite;

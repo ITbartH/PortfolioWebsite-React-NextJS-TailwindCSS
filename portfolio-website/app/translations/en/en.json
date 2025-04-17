@@ -30,7 +30,9 @@
         "p4title": "React Based Ionic Game App with Firebase Integration.",
         "p4desc": "This is an example of web/mobile game application, developed using Ionic and React technologies.",
         "p5title": "React/Node/ExpressJS Based App with Firebase Integration.",
-        "p5desc": "This is an example of a React based web application written in NodeJS technology consisted with client and server."
+        "p5desc": "This is an example of a React based web application written in NodeJS technology consisted with client and server.",
+        "p6title": "React & Next.js Portfolio Website App with TailwindCSS.",
+        "p6desc": "This is a dynamic and responsive portfolio website app developed with React & Next.js technologies, and styled with TailwindCSS."
     },
     "contact": {
         "header": "Let's work together.",
