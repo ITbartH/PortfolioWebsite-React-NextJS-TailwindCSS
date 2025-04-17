@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import '../globals.css';
+import '../globals.css'; // Plik CSS z animacją
 
 const ImageSlider = () => {
   const images = [
@@ -16,18 +16,19 @@ const ImageSlider = () => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, 9900); // Zmiana co 10 sekund
 
-    return () => clearInterval(interval);
+    return () => clearInterval(interval); // Czyszczenie intervala po odmontowaniu komponentu
   }, []);
-
+  console.log("Current image:", images[currentImageIndex]);  // Debugowanie ścieżki obrazu
   return (
-    <div className="w-full max-w-xl mx-auto aspect-[4/3] overflow-hidden rounded-xl shadow-lg mb-6">
+    <div className="image-slider">
       <img
         src={images[currentImageIndex]}
         alt={`Slide ${currentImageIndex}`}
-        className="w-full h-full object-cover transition-opacity duration-1000 slider-image"
+
+        className="slider-image place-self-center rounded-xl "
       />
     </div>
   );
 };
 
-export default ImageSlider;
+export default ImageSlider;  // Eksportujemy komponent jako default
