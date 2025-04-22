@@ -45,13 +45,11 @@ const HeroSection = (currentLang, setCurrentLang) => {
                             sequence={[
 
                                 'Bartosz',
-                                1000,
+                                2000,
                                 "IT engineer",
-                                1000,
-                                'Unity Dev',
-                                1000,
+                                2000,
                                 'Web Dev',
-                                1000
+                                2000
                             ]}
                             wrapper="span"
                             speed={50}
@@ -97,7 +95,7 @@ const HeroSection = (currentLang, setCurrentLang) => {
 
                     <div className="mt-4 flex flex-col items-center">
                         <button className="hover:animate-wiggle px-1 py-1 w-full sm:w-fit rounded-xl bg-gradient-to-br from-primary-400 via-primary-500 to-secondary-300 hover:bg-slate-800  mt-2">
-                            <a href="/Bartosz_Hrycaj_CV.pdf" download="cv" className="block bg-[#121212] hover:bg-slate-800 rounded-xl px-8 py-2">
+                            <a href="/Bartosz_Hrycaj_CV.pdf" download="Bartosz_Hrycaj_CV" className="block bg-[#121212] hover:bg-slate-800 rounded-xl px-8 py-2">
 
                                 {currentLang.currentLang == "EN" ?
                                     (
@@ -111,19 +109,7 @@ const HeroSection = (currentLang, setCurrentLang) => {
 
                             </a>
                         </button>
-                        {/* 
-                        <button className="hover:animate-wiggle px-6 py-3 w-full mt-2 sm:w-fit rounded-xl bg-gradient-to-br from-primary-400 via-primary-500 to-secondary-500 hover:bg-slate-200 text-black font-bold">
-                            {currentLang.currentLang == "EN" ?
-                                (
-                                    <>{ENtranslation.hero.button2}
-                                    </>
-                                ) :
-                                (
-                                    <>{PLtranslation.hero.button2}
-                                    </>
-                                )}
-                        </button> 
-                        */}
+                        
 
                     </div>
                 </div>
