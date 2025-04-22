@@ -39,5 +39,16 @@
         "body": "Jeśli chcesz się ze mną skontaktować, jestem zawsze dostępny i chętnie nawiążę kontakt. Niezależnie od tego, czy masz pytanie, komentarz, czy po prostu chcesz się przywitać, nie wahaj się zostawić mi wiadomości. Dołożę wszelkich starań, aby odpowiedzieć tak szybko, jak to możliwe i czekam na wiadomość od Ciebie.",
         "contactmsg": "Skontaktuj się ze mną",
         "emailmsg": ""
-    }
+    },
+    "footer": {
+    "aboutTitle": "O autorze",
+    "aboutText": "Bartosz Hrycaj - Pasjonat programowania tworzący aplikacje z pasją i precyzją.",
+    "navigationTitle": "Nawigacja",
+    "aboutLink": "O mnie",
+    "projectsLink": "Projekty",
+    "contactLink": "Kontakt",
+    "findMeTitle": "Znajdź mnie",
+    "rights": "Wszystkie prawa zastrzeżone"
+  }
+    
 }

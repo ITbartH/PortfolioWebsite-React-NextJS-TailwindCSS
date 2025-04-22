@@ -88,7 +88,7 @@ export default function Home(props) {
         <section id="contact"/>
         <EmailSection currentLang={lang} setCurrentLang={setCurrentLang} />
       </div>
-      <Footer />
+      <Footer currentLang={lang} />
     </main>
   )
 }

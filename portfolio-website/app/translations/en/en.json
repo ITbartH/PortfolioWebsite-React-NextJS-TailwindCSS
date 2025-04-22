@@ -39,5 +39,15 @@
         "body": "If you'd like to get in touch, I'm always here and eager to connect. Whether you have a question, a comment, or just want to say hello, please don't hasitate to leave me a message. I'll do my best to respond as fast as I can and look forward to hearing from you.",
         "contactmsg": "Contact with me",
         "emailmsg": ""
+    },
+    "footer": {
+        "aboutTitle": "About Me",
+        "aboutText": "Bartosz Hrycaj - A programming enthusiast creating applications with passion and precision.",
+        "navigationTitle": "Navigation",
+        "aboutLink": "About me",
+        "projectsLink": "Projects",
+        "contactLink": "Contact",
+        "findMeTitle": "Find Me",
+        "rights": "All rights reserved"
     }
 }
