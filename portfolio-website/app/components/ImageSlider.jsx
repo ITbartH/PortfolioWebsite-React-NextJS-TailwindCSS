@@ -14,7 +14,7 @@ const ImageSlider = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 9900); // Zmiana co 10 sekund
+    }, 9900);
 
     return () => clearInterval(interval);
   }, []);
