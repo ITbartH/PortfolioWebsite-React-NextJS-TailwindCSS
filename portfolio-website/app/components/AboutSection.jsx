@@ -31,7 +31,7 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      <ul className=" list-inside">
+      <ul className="list-disc list-inside">
         <li>
           <span className="text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 via-yellow-500 to-yellow-300">
             IV Liceum Ogólnokształcące w Siedlcach – im. Stanisława Żółkiewskiego (2015-2018)
@@ -54,7 +54,7 @@ const TAB_DATA = [
     title: "Certifications",
     id: "certifications",
     content: (
-      <ul>
+      <ul className="list-disc list-inside">
         <li>
           <span className="text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 via-yellow-500 to-yellow-300">Certyfikat poświadczający wygłoszenie referatu na Ogólnopolskiej Konferencji Interdyscyplinarnej </span> <br></br>Współczesne
           zastosowania Informatyki 2022 (16.05.2022r.)
@@ -72,7 +72,7 @@ const TAB_DATA = [
   }
 ];
 
-const AboutSection = ({ currentLang }) => { // Dodajemy destrukturyzację propsa
+const AboutSection = ({ currentLang, imageSliderIndex, setImageSliderIndex }) => { 
   const [tab, setTab] = useState("skills");
   const [isPending, startTransition] = useTransition();
 
@@ -86,7 +86,10 @@ const AboutSection = ({ currentLang }) => { // Dodajemy destrukturyzację propsa
     <section className="text-white mt-16 md:mt-32">
         
       <div className="md:grid md:grid-cols-2 gap-8 py-8 px-4 xl:gap-16 sm:py-16 xl:py-16">
-         <ImageSlider></ImageSlider>{/* Twój komponent ImageSlider */}
+         <ImageSlider 
+            currentImageIndex={imageSliderIndex} 
+            setCurrentImageIndex={setImageSliderIndex}>
+         </ImageSlider>{}
          {/*<Image priority src="/images/about-image.jpg" width={600} height={500} alt="Working Station" className="place-self-center rounded-xl" /> */}
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4 ">

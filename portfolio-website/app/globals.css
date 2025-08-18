@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "flag-icons/css/flag-icons.min.css";
+
 
 :root {
   --foreground-rgb: 255, 255, 255;
@@ -17,6 +19,7 @@
 }
 
 @media (max-width: 768px) {
+
   body::before,
   body::after,
   html::before,
@@ -32,9 +35,11 @@
   0% {
     transform: translateY(0) rotate(45deg);
   }
+
   50% {
     transform: translateY(0) rotate(55deg);
   }
+
   100% {
     transform: translateY(0) rotate(45deg);
   }
@@ -44,21 +49,25 @@
   0% {
     transform: translateY(0) rotate(0deg);
   }
-  
+
   100% {
     transform: translateY(0) rotate(360deg);
   }
 }
-html{
+
+html {
   overflow-x: hidden;
   touch-action: manipulation;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 
   width: 100%;
@@ -68,11 +77,9 @@ html, body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-    to bottom,
-    rgb(var(--background-end-rgb)),
-    rgb(var(--background-start-rgb))
-  );
+  background: linear-gradient(to bottom,
+      rgb(var(--background-end-rgb)),
+      rgb(var(--background-start-rgb)));
   overflow-clip-margin: content-box;
   overflow-x: clip;
 }
@@ -127,21 +134,118 @@ html::after {
   0% {
     opacity: 0;
   }
-  25%{
+
+  25% {
     opacity: 1;
   }
-  50%{
+
+  50% {
     opacity: 1;
   }
-  75%{
+
+  75% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
   }
 }
 
+/* backdrop blur support */
+@supports (backdrop-filter: blur(20px)) {
+  .backdrop-blur-sm {
+    backdrop-filter: blur(4px);
+  }
 
+  .backdrop-blur-md {
+    backdrop-filter: blur(12px);
+  }
 
+  .backdrop-blur-xl {
+    backdrop-filter: blur(24px);
+  }
+}
 
+/* navbar anims */
+.navbar-glow {
+  background: linear-gradient(135deg,
+      rgba(234, 179, 8, 0.1) 0%,
+      rgba(251, 191, 36, 0.05) 50%,
+      rgba(234, 179, 8, 0.1) 100%);
+}
 
+/* navlink hovers */
+.nav-link-gradient {
+  background: linear-gradient(135deg, #fbbf24, #f59e0b, #eab308);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+/* mobile menu backdrop */
+.mobile-menu-backdrop {
+  background: radial-gradient(circle at center,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.95) 100%);
+}
+
+/* floating anims */
+@keyframes float-gentle {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+.float-gentle {
+  animation: float-gentle 3s ease-in-out infinite;
+}
+
+/* pulse glow */
+@keyframes pulse-glow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(234, 179, 8, 0.3);
+  }
+
+  50% {
+    box-shadow: 0 0 30px rgba(234, 179, 8, 0.5);
+  }
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* particless */
+@keyframes particle-float {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) scale(0);
+  }
+
+  25% {
+    opacity: 1;
+    transform: translate(10px, -10px) scale(1);
+  }
+
+  75% {
+    opacity: 1;
+    transform: translate(-5px, -20px) scale(0.8);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(-15px, -30px) scale(0);
+  }
+}
+
+.particle-effect {
+  animation: particle-float 1.5s ease-out infinite;
+}
