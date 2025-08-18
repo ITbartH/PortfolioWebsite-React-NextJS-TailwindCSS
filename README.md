@@ -6,7 +6,7 @@ A modern, responsive portfolio website built with React, Next.js, and Tailwind C
 
 ## 🚀 Live Demo
 
-**Live Site:** [https://bartoszhrycaj.vercel.app/](bartoszhrycaj.vercel.app/)
+**Live Site:** [https://bartoszhrycaj.vercel.app/](https://bartoszhrycaj.vercel.app/)
 
 ## 📋 Table of Contents
 
