@@ -73,6 +73,7 @@ A modern, responsive portfolio website built with React, Next.js, and Tailwind C
 ```bash
 git clone https://github.com/ITbartH/PortfolioWebsite-React-NextJS-TailwindCSS.git
 cd PortfolioWebsite-React-NextJS-TailwindCSS
+cd portfolio-website
 ```
 
 2. **Install dependencies**
@@ -340,6 +341,7 @@ Nowoczesna, responsywna strona portfolio zbudowana z React, Next.js i Tailwind C
 ```bash
 git clone https://github.com/ITbartH/PortfolioWebsite-React-NextJS-TailwindCSS.git
 cd PortfolioWebsite-React-NextJS-TailwindCSS
+cd portfolio-website
 ```
 
 2. **Zainstaluj zależności**
