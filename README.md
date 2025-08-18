@@ -6,7 +6,7 @@ A modern, responsive portfolio website built with React, Next.js, and Tailwind C
 
 ## 🚀 Live Demo
 
-**Live Site:** [https://bartosz-hrycaj-portoflio.vercel.app//](https://bartosz-hrycaj-portoflio.vercel.app/)
+**Live Site:** [https://bartoszhrycaj.vercel.app/](bartoszhrycaj.vercel.app/)
 
 ## 📋 Table of Contents
 
@@ -278,7 +278,7 @@ Nowoczesna, responsywna strona portfolio zbudowana z React, Next.js i Tailwind C
 
 ## 🚀 Demo na żywo
 
-**Strona na żywo:** [https://bartosz-hrycaj-portoflio.vercel.app/](https://bartosz-hrycaj-portoflio.vercel.app/)
+**Strona na żywo:** [https://bartoszhrycaj.vercel.app/](bartoszhrycaj.vercel.app/)
 
 ## 📋 Spis treści
 
