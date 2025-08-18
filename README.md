@@ -278,7 +278,7 @@ Nowoczesna, responsywna strona portfolio zbudowana z React, Next.js i Tailwind C
 
 ## 🚀 Demo na żywo
 
-**Strona na żywo:** [https://bartoszhrycaj.vercel.app/](bartoszhrycaj.vercel.app/)
+**Strona na żywo:** [https://bartoszhrycaj.vercel.app/](https://bartoszhrycaj.vercel.app/)
 
 ## 📋 Spis treści
 
