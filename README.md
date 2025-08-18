@@ -18,7 +18,6 @@ A modern, responsive portfolio website built with React, Next.js, and Tailwind C
 - [Internationalization](#-internationalization)
 - [Animations & Styling](#-animations--styling)
 - [Deployment](#-deployment)
-- [Contributing](#-contributing)
 - [Contact](#-contact)
 
 ## ✨ Features
@@ -290,7 +289,6 @@ Nowoczesna, responsywna strona portfolio zbudowana z React, Next.js i Tailwind C
 - [Internacjonalizacja](#-internacjonalizacja)
 - [Animacje i stylizacja](#-animacje-i-stylizacja)
 - [Wdrożenie](#-wdrożenie)
-- [Współpraca](#-współpraca)
 - [Kontakt](#-kontakt)
 
 ## ✨ Funkcjonalności
